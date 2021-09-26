@@ -71,17 +71,30 @@
                     <p class="contacto__agenda">Seleccione su turno</p>
                     <select name="" id=""></select>
                    </div>
-                   <div id="leerPoliticas__flex">
-                    <a href="politicas.htm">Leer las politicas de reserva y cancelación</a>
-                   </div>
-                    <div id="checkbox__flex">
-                        <p class="contacto__chbx">Acepto las politicas de reserva y cancelacion</p> 
-                        <input type= "checkbox" class="form-check-input">
-                    </div>
-                    <div>
-                        <input type="submit" class="btn btn-outline-secondary" value="Enviar formulario">
+                    
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Enviar formulario
+                    </button>
+  
+                   <!-- Modal -->
+                   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                   <div class="modal-dialog">
+                   <div class="modal-content">
+                   <div class="modal-header">
+                   <h5 class="modal-title" id="exampleModalLabel">Al enviar este formulario usted está aceptando nuestras politicas de reserva y cancelación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Leer politicas de reserva y cancelación</button>
+          <button type="button" class="btn btn-secondary">Aceptar y enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
                     </form>
-                    </div>
+            
             </div>
      </div>
     </main>
