@@ -1,0 +1,482 @@
+*{ 
+    margin: 2px;
+    padding: 1px;
+    } 
+    /* bootstrap */
+    
+    /* barra de navegacion*/
+     .menu 
+     {
+     background-color: rgb(206, 252, 208);
+     text-decoration: none;
+     }
+     .menu__lista 
+     {
+     margin-top: 30px;
+     color: rgb(240, 239, 238);
+     text-decoration: none;
+     }
+     .menu__item 
+     {
+     text-decoration: none;
+     display: inline-block;
+     margin-top: 30px;
+     list-style-type: none;
+     text-align: center;
+     font-size: larger;
+     color: rgb(160, 204, 137);
+     font-family:'Raleway';
+     }
+     .divmenu {
+     height: 100px;
+     }
+    /* barra de navegacion*/
+    
+    /* titulos y subtitulos*/
+    
+     .titulos {
+     margin-top: 30px;
+     padding-top: 20px;
+     color: rgb(207, 138, 157);
+     height: 100px;
+     text-align: center;
+     font-weight: bold;
+     font-size: 70px;
+     font-family:'Raleway'
+     }
+     .titulos__sub {
+     height: 70px;
+     color: rgb(91, 145, 75);
+     text-align: center;
+     font-size: 20px;
+     font-family: 'Raleway';
+     }
+     .titulos__parrafo{
+     height: 60px;
+     text-align: center ;
+     color: rgb(105, 138, 74);
+     font-size: 15px;
+     font-family: 'Raleway';
+     font-weight: bold;
+     }
+     .section {
+     height: 70px;
+     text-align: left;
+     color: rgb(102, 110, 97);
+     font-size: 20px;
+     font-family: 'Raleway';
+     font-weight: bold;
+     padding: 30px;
+     margin: 10px;
+     }
+     .section__article {
+     height: 70px;
+     text-align: right;
+     color: grey;
+     font-size: 20px;
+     font-family: 'Raleway';
+     font-weight: bold;
+     padding: 30px;
+     margin: 10px;
+     margin-top: 60px;
+     }
+     #cajaflex {
+     display: flex;
+     height: 800px;
+     flex-direction: column;
+     }
+     #cajauno {
+     height: 175px;
+     }
+     #cajados {
+    height: 100px;
+     }
+     #cajatres {
+    height: 200px;
+     }
+     #cajacuatro {
+     height: 200px;
+     }
+     #cajacinco {
+    height: 200px;
+     }
+    
+    /* titulos y subtitulos*/
+    
+    
+    
+    /*politicas*/
+     .politicas{
+     font-weight: bold;
+     margin-top: 90px;
+     color: rgb(87, 79, 79);
+     font-family: 'Raleway';
+     }
+     .politicas__libroq{
+     font-weight: bold;
+     color: rgb(66, 82, 66);
+     font-family: 'Raleway';
+     margin-top: 90px;
+     background-color: rgb(176, 207, 176);
+     } 
+    
+     .gridpoliticas {
+     display: grid;
+     }
+     .cajauno {
+     width: 100%;
+     height: 300px;
+     }
+     .cajados {
+    width: 100%;
+    height: 300px;
+     }
+    /*politicas*/
+    
+    /*perfiles graduados*/
+     .perfiluno {
+        margin: top 80px;
+        text-align: right;
+        height: 300px;
+        color: rgb(153, 137, 137);
+        background-color: whitesmoke;
+        width: 100%;
+        grid-area: "uno";
+     }
+     #gridperfil {
+     display: grid;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     height: 2300px;
+     grid-template-rows: 300px 300px 300px;
+     grid-template-columns: 900px;
+     grid-template-areas: "uno"
+                          "dos"
+                          "tres";
+     }
+     .perfildos {
+       margin: top 80px;
+        text-align: left;
+        height: 300px;
+        color: rgb(153, 137, 137);
+        background-color: white;
+        width: 100%;
+        grid-area: "dos";
+     }
+     .perfiltres {
+       margin: top 80px;
+        text-align: right;
+        height: 300px;
+        color: rgb(153, 137, 137);
+        background-color: whitesmoke;
+        width: 100%;
+        grid-area: "tres";
+     }
+    
+    /*perfil del graduado*/
+    
+    /*tratamientos tabla*/
+     .tratamientos{
+     text-align: center;
+     color: grey;
+     font-family: 'Raleway';
+     }
+     table {
+        color:rgb(100, 94, 94)
+     }
+     td {
+        font-family: 'Raleway';
+     }
+     th {
+        font-family: 'Raleway';
+        color: rgb(71, 67, 67);
+     }
+    /*tratamientos tabla*/
+     
+    /*formulario de contacto*/
+     .contacto__tele{
+     text-align: left;
+     color: rgb(32, 31, 31);
+     font-family:'Raleway';
+     text-align: left;
+     font-weight: bold;
+     }
+     .contacto__email{
+     text-align: left;
+     color: rgb(32, 31, 31);
+     font-family:'Raleway';
+     font-weight: bold;
+     }
+     .contacto__preferencial {
+     text-align: left;
+     color: rgb(32, 31, 31);
+     font-family:'Raleway';
+     font-weight: bold;
+     }
+     .contacto__consulta{
+     text-align: left;
+     color: rgb(32, 31, 31);
+     font-family:'Raleway';
+     font-weight: bold;
+     }
+     .contacto__agenda {
+     text-align: left;
+     color: rgb(32, 31, 31);
+     font-family:'Raleway';
+     font-weight: bold;
+     }
+     .contacto__chbx {
+     text-align: left;
+     font-weight: bold;
+     color: rgb(32, 31, 31);
+     font-family:'Raleway';
+     }
+    /*formulario de contacto*/
+    
+    
+    /* pie de pagina*/
+     .masInfo{
+         width: 100%;
+         margin-top: 40px;
+         background-color: whitesmoke;
+         color: rgb(96, 156, 96);
+         text-align: center;
+         font-weight: bold;
+         font-family: 'Raleway';
+     }
+     .masInfo__ig{
+         background-color: whitesmoke;
+         color: rgb(88, 161, 86);
+         text-align: center;
+     }
+     .masInfo__wpp{
+         background-color: whitesmoke;
+         color: rgb(88, 161, 86);
+         text-align: center;
+     } 
+    .divfooter {
+       width: 100%;
+       height: 200px;
+    }
+    
+    /*pie de pagina*/
+    
+    /*div para box modeling en tratamientos*/
+     .divqs {
+        margin-top: 10px;
+        border-left: solid 3px grey;
+        border-right: solid 3px grey;
+        border-bottom: solid 3px grey;
+        border-top: solid 3px grey;
+        font-family: 'Raleway';
+        color: grey;
+        background-color: beige;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+     }
+    /*div para box modeling en tratamientos*/
+    
+    /* flexbox*/
+      #seccionContacto__flex
+     {
+       display: flex;
+       flex-direction: column;
+       flex-wrap: nowrap;
+       justify-content: space-between;
+       height: 1000px;
+     }
+     #consulta__flex{
+        background-color: whitesmoke;
+        height: 250px;
+     }
+     #telefono__flex{
+       background-color: white;
+       height: 50px;
+     }
+     #email__flex{
+     background-color: whitesmoke;
+     height: 50px;
+     }
+     #preferencial__flex{
+     background-color: white;
+     height: 50px;
+     }
+     #tipo__flex{
+     background-color: whitesmoke;
+     height: 50px;
+     }
+     #agenda__flex{
+     background-color: white;
+     height: 50px;
+     }
+     #leerPoliticas__flex{
+     background-color: whitesmoke;
+     height: 50px;
+     }
+     #checkbox__flex{
+     background-color: white;
+     height: 50px;
+     }
+    /*flexbox*/
+    /*animacion en menu*/ 
+    @keyframes barrita {
+   
+        0% {
+           width: 10%;
+        }
+        5% {
+           width: 5%;
+        }
+        10% {
+           width: 15%;
+        }
+        15% {
+           width: 15%;
+        }
+        20% {
+           width: 20%;
+        }
+        25% {
+           width: 25%;
+        }
+        30% {
+           width: 30%;
+        }
+        35% {
+           width: 35%;
+        }
+        40% {
+           width: 40%;
+        }
+        45% {
+           width: 45%;
+        }
+        50%{
+        width: 50%;
+        }
+        55%{
+        width: 55%;
+        }
+        60% {
+           width: 60%;
+        }
+        65% {
+           width: 65%;
+        }
+        70%{
+           width: 70%;
+        }
+        75%{
+           width: 75%;
+        }
+        80% {
+           width: 80%;
+        }
+        85% {
+           width: 85%;
+        }
+        90% {
+           width: 90%;
+        }
+        95% {
+           width: 95%;
+        }
+        100% {
+           width: 100%;
+        }
+        }
+        .menu {
+           animation-name: barrita;
+           animation-duration: 2s;
+        }
+        /*animacion*/
+        h1 {
+            animation-duration: 3s;
+            animation-name: aparece;
+            animation-iteration-count:initial
+         }
+         @keyframes aparece {
+            0% {
+              opacity: 0;
+            }
+            50% {
+                opacity: 0,5;
+            }
+            100% {
+              opacity: 1;
+            }
+         }
+         
+    /*mq para inicio*/
+    .grilla {
+        grid-template-columns: 100%;
+        display: grid;
+        grid-template-rows: 300px 700px 300px;
+        grid-template-areas:
+                             "menu    menu    menu"
+                             "main    main    main"
+                             "footer   footer   footer";
+                            }
+    .menu {
+        grid-area: menu;
+    }
+    .main {
+        grid-area: main;
+    }
+    .footer {
+        grid-area: footer;
+    }
+    
+/* XS -SM */
+@media only screen and (max-width: 600px) {
+    .grilla {
+        grid-template-columns: 100%;
+        grid-template-areas:
+                             "menu"
+                             "main"
+                             "footer";
+        grid-template-rows: 150px 500px 150px;
+    }
+ /*SM -LANDSCAPE*/
+@media only screen and (min-width: 600px) {
+    .grilla {
+        grid-template-rows: 200px 600px 170px ;
+        grid-template-areas: 
+                            "menu    menu"
+                            "main    main"
+                            "footer footer";
+        grid-template-columns: 100%;
+    }
+/*MD  */
+@media only screen and (min-width: 768px) {
+    .grilla{
+        grid-template-columns: 100px;
+        grid-template-rows: 250px 650px 200px;
+        grid-template-areas:
+                             "menu   menu   menu"
+                             "main   main   main"
+                             "footer footer footer";
+    }
+    /*LG*/
+@media only screen and (min-width: 992px){
+    .grilla{
+        grid-template-columns: 100%;
+        grid-template-rows: 300px 700px 200px;
+        grid-template-areas:
+                             "menu   menu  menu"
+                             "main   main  main"
+                             "footer footer  footer";
+    }
+/* XL*/
+
+@media only screen and (min-width: 1200px) 
+{
+    .grilla {
+        grid-template-columns: 100%;
+        grid-template-rows: 400px 800px 250px;
+        grid-template-areas: "menu menu menu menu"
+                            "main main main main"
+                            "footer footer footer footer" ; }
+}

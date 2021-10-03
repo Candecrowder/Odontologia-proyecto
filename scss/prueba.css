@@ -1,0 +1,139 @@
+/*nav */
+body header div {
+  background-color: #cefcd0;
+  text-decoration: none;
+  height: 100px;
+}
+
+body header div ul {
+  margin-top: 30px;
+  color: #f0efee;
+  text-decoration: none;
+}
+
+body header div ul li {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+  list-style-type: none;
+  text-align: center;
+  font-size: larger;
+  color: #a0cc89;
+  font-family: 'Raleway';
+}
+
+/* nav */
+/* main inicio */
+body main div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 800px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main div div {
+  height: 175px;
+}
+
+body main div div h1 {
+  margin-top: 30px;
+  padding-top: 20px;
+  color: #cf8a9d;
+  height: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 70px;
+  font-family: 'Raleway';
+}
+
+body main div div div {
+  height: 100px;
+}
+
+body main div div div h2 {
+  height: 70px;
+  color: #5b914b;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Raleway';
+}
+
+body main div div div {
+  height: 200px;
+}
+
+body main div div div p {
+  height: 60px;
+  text-align: center;
+  color: #698a4a;
+  font-size: 15px;
+  font-family: 'Raleway';
+  font-weight: bold;
+}
+
+body main div div div {
+  height: 200px;
+}
+
+body main div div div article {
+  height: 70px;
+  text-align: left;
+  color: #666e61;
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: bold;
+  padding: 30px;
+  margin: 10px;
+}
+
+body main div div div {
+  height: 200px;
+}
+
+body main div div div p {
+  height: 70px;
+  text-align: right;
+  color: grey;
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: bold;
+  padding: 30px;
+  margin: 10px;
+  margin-top: 60px;
+}
+
+/*main inicio */
+/* footer */
+div {
+  width: 100%;
+  height: 200px;
+}
+
+div footer p {
+  width: 100%;
+  margin-top: 40px;
+  background-color: whitesmoke;
+  color: #609c60;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Raleway';
+}
+
+div footer p {
+  background-color: whitesmoke;
+  color: #58a156;
+  text-align: center;
+}
+
+div footer p {
+  background-color: whitesmoke;
+  color: #58a156;
+  text-align: center;
+}
+
+/*footer */
+/*# sourceMappingURL=prueba.css.map */

@@ -1,0 +1,122 @@
+
+/*nav */
+body {
+    header {
+        div {background-color: rgb(206, 252, 208);
+               text-decoration: none;
+               height: 100px;
+                 ul {margin-top: 30px;
+                     color: rgb(240, 239, 238);
+                     text-decoration: none;
+                           li {text-decoration: none;
+                             display: inline-block;
+                             margin-top: 30px;
+                             list-style-type: none;
+                             text-align: center;
+                             font-size: larger;
+                             color: rgb(160, 204, 137);
+                             font-family:'Raleway';
+
+                }
+            }
+        }
+    }
+}
+/* nav */
+
+/* main inicio */
+body {
+    main {
+        div { display: flex;
+              height: 800px;
+              flex-direction: column;
+            div {  height: 175px;
+                h1 {
+                    margin-top: 30px;
+                    padding-top: 20px;
+                    color: rgb(207, 138, 157);
+                    height: 100px;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 70px;
+                    font-family:'Raleway'
+                  }
+            
+            div {  height: 100px;
+                h2 {
+                    height: 70px;
+                    color: rgb(91, 145, 75);
+                    text-align: center;
+                    font-size: 20px;
+                    font-family: 'Raleway';
+                }
+            }
+            div {height: 200px;
+                p {
+                    height: 60px;
+                    text-align: center ;
+                    color: rgb(105, 138, 74);
+                    font-size: 15px;
+                    font-family: 'Raleway';
+                    font-weight: bold;
+                }
+            }
+            div {height: 200px;
+                article {
+                    height: 70px;
+                    text-align: left;
+                    color: rgb(102, 110, 97);
+                    font-size: 20px;
+                    font-family: 'Raleway';
+                    font-weight: bold;
+                    padding: 30px;
+                    margin: 10px;
+                }
+            }
+            div { height: 200px;
+                p {
+                    height: 70px;
+                    text-align: right;
+                    color: grey;
+                    font-size: 20px;
+                    font-family: 'Raleway';
+                    font-weight: bold;
+                    padding: 30px;
+                    margin: 10px;
+                    margin-top: 60px;
+                }
+            }
+            }
+        }
+    }
+}
+
+/*main inicio */
+
+/* footer */
+div {
+    width: 100%;
+    height: 200px;
+    footer {
+        p {
+            width: 100%;
+            margin-top: 40px;
+            background-color: whitesmoke;
+            color: rgb(96, 156, 96);
+            text-align: center;
+            font-weight: bold;
+            font-family: 'Raleway';
+        }
+        p {
+            background-color: whitesmoke;
+            color: rgb(88, 161, 86);
+            text-align: center;
+        }
+        p {
+            background-color: whitesmoke;
+            color: rgb(88, 161, 86);
+            text-align: center;
+        }
+    }
+}
+/*footer */
